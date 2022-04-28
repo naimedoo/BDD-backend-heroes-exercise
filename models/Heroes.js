@@ -13,9 +13,9 @@ const heroeSchema = new mongoose.Schema({
 	image: String
 })
 
-const heroesModel = mongoose.model("heros",heroeSchema);
+const HeroesModel = mongoose.model("heros",heroeSchema);
 
-// heroesModel.insertMany([
+// HeroesModel.insertMany([
 //         {
 //             slug: "iron-man",
 //             name: "Iron Man",
@@ -45,4 +45,4 @@ const heroesModel = mongoose.model("heros",heroeSchema);
 //         }
 //     ] 
 // )
-module.exports = {heroesModel};
+module.exports = {HeroesModel};
